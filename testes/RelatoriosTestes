@@ -1,0 +1,34 @@
+# Relatório de testes manuais
+
+Preencher o status após executar cada teste no Eclipse: Aprovado, Reprovado ou Não executado.
+
+| ID | Cenário | Resultado esperado | Status |
+|---|---|---|---|
+| TM01 | Nova partida | Tabuleiro 8x8, 12 peças por cor e brancas começam | Não executado |
+| TM02 | Movimento A3 B4 | Movimento aceito | Não executado |
+| TM03 | Movimento horizontal A3 C3 | Movimento recusado | Não executado |
+| TM04 | Destino ocupado | Movimento recusado | Não executado |
+| TM05 | Peça do adversário | Movimento recusado | Não executado |
+| TM06 | Coordenada inválida | Mensagem de erro; programa continua | Não executado |
+| TM07 | Alternância | Turno passa para pretas | Não executado |
+| TM08 | Duas jogadas seguidas das brancas | Segunda jogada recusada | Não executado |
+| TM09 | Captura simples | Peça adversária capturada | Não executado |
+| TM10 | Captura obrigatória | Movimento sem captura recusado | Não executado |
+| TM11 | Captura múltipla | Mesmo jogador continua com a mesma peça | Não executado |
+| TM12 | Captura para trás | Captura permitida | Não executado |
+| TM13 | Maior sequência | Sequência menor recusada | Não executado |
+| TM14 | Promoção | Peça vira dama na última linha | Não executado |
+| TM15 | Dama avança várias casas | Movimento diagonal livre aceito | Não executado |
+| TM16 | Dama volta várias casas | Movimento diagonal livre aceito | Não executado |
+| TM17 | Bloqueio | Dama não atravessa outra peça | Não executado |
+| TM18 | Captura da última peça | Vitória identificada | Não executado |
+| TM19 | Sem movimentos legais | Vitória identificada | Não executado |
+| TM20 | Salvar | Arquivo guarda nomes, turno e tabuleiro | Não executado |
+| TM21 | Carregar | Estado salvo é restaurado | Não executado |
+| TM22 | Arquivo inexistente | Erro informado sem encerrar programa | Não executado |
+| TM23 | Arquivo inválido | Arquivo rejeitado | Não executado |
+
+## Testes adicionais
+TA01 comando desconhecido; TA02 MOVER incompleto; TA03 casa clara; TA04 origem vazia; TA05 movimento comum para trás; TA06 jogar após fim; TA07 arquivo vazio; TA08 comandos em minúsculas; TA09 salvar durante captura múltipla; TA10 nova partida após encerramento.
+
+**Atenção:** os testes estão listados para execução pelo grupo. Não marque como aprovados sem testar.
