@@ -1,1 +1,0 @@
-Use este diretório para guardar arquivos de posições específicas usados nos testes manuais. Registre no relatório o resultado observado.
