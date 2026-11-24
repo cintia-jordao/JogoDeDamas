@@ -1,0 +1,1 @@
+Projeto criado para Java 8+. Compile e execute no Eclipse e realize os testes manuais antes da entrega.
